@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeeSocial — Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 24px;
+            color: #2C3E50;
+            line-height: 1.7;
+            background: #FAFAFA;
+        }
+        h1 { font-size: 28px; margin-bottom: 4px; }
+        h2 { font-size: 20px; margin-top: 32px; margin-bottom: 12px; color: #2C3E50; }
+        p { margin-bottom: 16px; }
+        .date { color: #7F8C8D; font-size: 14px; margin-bottom: 32px; }
+        .highlight { background: #FFF8E6; padding: 16px; border-radius: 8px; margin: 20px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        a { color: #D4A017; }
+    </style>
+</head>
+<body>
+    <h1>BeeSocial Privacy Policy</h1>
+    <p class="date">Last updated: March 16, 2026</p>
+
+    <div class="highlight">
+        <strong>Summary:</strong> BeeSocial does not collect, store, or share any personal data. The app only tracks phone interactions during active game sessions and all data is deleted when rooms expire.
+    </div>
+
+    <h2>What BeeSocial does</h2>
+    <p>BeeSocial is a multiplayer social game that detects phone usage during group gatherings. When a game session is active, the app monitors screen touches, app switching, and device movement to assign points to players who use their phones.</p>
+
+    <h2>What data is collected</h2>
+    <p>During an active game session, BeeSocial processes the following data locally on your device:</p>
+    <ul>
+        <li><strong>Screen interaction events</strong> — whether the screen was touched or turned on during a game. Only the fact that an interaction occurred is recorded, not what you tapped or viewed.</li>
+        <li><strong>App usage detection</strong> — whether you switched away from BeeSocial to another app. The name or content of other apps is not recorded.</li>
+        <li><strong>Accelerometer data</strong> — used to detect if the phone was picked up or moved. Raw sensor data is processed in real time and not stored.</li>
+        <li><strong>Player name</strong> — the display name you enter when creating or joining a game. This is stored temporarily in the game room and deleted when the room expires.</li>
+    </ul>
+
+    <h2>What data is NOT collected</h2>
+    <p>BeeSocial does not access, collect, or transmit:</p>
+    <ul>
+        <li>Messages, emails, or communications of any kind</li>
+        <li>Contacts or call history</li>
+        <li>Photos, files, or media</li>
+        <li>Location or GPS data</li>
+        <li>Browsing history</li>
+        <li>Device identifiers or advertising IDs</li>
+        <li>Any content you view on your phone</li>
+    </ul>
+
+    <h2>How data is stored</h2>
+    <p>Game session data (player names, scores, and penalty counts) is stored temporarily in Firebase Realtime Database for the duration of the game session. This data is associated with a temporary room code, not with any user account or device identifier. Rooms and all associated data are automatically deleted within 24 hours of creation.</p>
+    <p>BeeSocial does not require user accounts. No email addresses, passwords, or personal profiles are collected.</p>
+
+    <h2>Third-party services</h2>
+    <p>BeeSocial uses Google Firebase for real-time game synchronization. Firebase processes game session data (player names, scores) as described above. No analytics, advertising, or tracking SDKs are included in the app. For Firebase's own privacy practices, see <a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a>.</p>
+
+    <h2>Permissions explained</h2>
+    <ul>
+        <li><strong>Internet</strong> — required for multiplayer game synchronization via Firebase.</li>
+        <li><strong>Foreground Service</strong> — allows the app to continue tracking phone usage when minimized during a game.</li>
+        <li><strong>Notifications</strong> — used to alert you when a violation or penalty occurs during a game.</li>
+        <li><strong>Usage Stats (optional)</strong> — detects when you switch to another app during a game. This permission is optional and the game works without it.</li>
+        <li><strong>Vibration</strong> — provides haptic feedback during game events.</li>
+        <li><strong>Wake Lock</strong> — keeps the tracking service running during active game sessions.</li>
+    </ul>
+
+    <h2>Children's privacy</h2>
+    <p>BeeSocial is not directed at children under 13 and does not knowingly collect any data from children. The app does not collect personal information from any user regardless of age.</p>
+
+    <h2>Data retention</h2>
+    <p>Game session data is stored only for the duration of the game and is automatically deleted within 24 hours. No long-term data storage occurs. The only persistent local data is your preferred display name, stored in your device's SharedPreferences, which you can clear at any time through Android's app settings.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If this privacy policy is updated, the changes will be posted on this page with an updated date. Continued use of BeeSocial after changes constitutes acceptance of the updated policy.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy or BeeSocial's data practices, contact us at:</p>
+    <p><strong>beesocialtheapp@gmail.com</strong></p>
+
+    <p style="margin-top: 48px; color: #7F8C8D; font-size: 13px;">BeeSocial is an independently developed application. This privacy policy applies to the BeeSocial Android application available on Google Play.</p>
+</body>
+</html>
